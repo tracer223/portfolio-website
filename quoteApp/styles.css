@@ -1,0 +1,25 @@
+body {
+    background-image: url(https://static.pexels.com/photos/25763/pexels-photo.jpg);
+    background-size: cover;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 170px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  p {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  
+  .container-fluid {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  
+  
