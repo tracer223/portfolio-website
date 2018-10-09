@@ -1,3 +1,15 @@
+To run locally:
+1.) cd into markdown-previewer directory
+2.) make sure yarn is installed
+3.) yarn start
+4.) app will run on port 3000 by default and display in default web browser
+5.) to create production build, issue command 'yarn build' in markdown-previewer directory
+6.) check index.html references in newly created build folder and make sure they are pointing correctly to static/css and static/js.
+Extra '/' at the beginning of these paths can break the app.
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
