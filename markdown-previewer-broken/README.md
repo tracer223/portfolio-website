@@ -1,8 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-Below you will find some information on how to perform common tasks.<br>
-You can find the most recent version of this guide [here](https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md).
-
+Broken version of app. Dependency tree is jacked up, started a fresh create-react-app in separate directory. Keeping this for reference.
 ## Table of Contents
 
 - [Updating to New Releases](#updating-to-new-releases)
