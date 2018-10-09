@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css?family=Noticia+Text');
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Noticia Text', serif;
+}
+
+@keyframes shutter {
+  0% {
+    background: transparent;
+    border: 1px solid white;
+  }
+  100% {
+    background-color: black;
+    border: 0px solid white;
+  }
+}
+
+html, body
+{
+    margin: 0px;
+    padding: 0px;
+	overflow-x: hidden;
+}
+
+h1 {
+    letter-spacing: 0.04em;
+}
+
+.landing {
+  height: 55em;
+  width: 100%;
+  background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("https://qmomfq.by3302.livefilestore.com/y4mY_hqyOlcBJaEn4OIlPbqA0mwd58PhroFkS3BbpsWNi8Y22PpuLeqoZNMQfOFAlSnOCW8jLUNDI9ayhtgeFmMPfv_Tt437zYP008JGtAgLqNwVKU4rurnztV-DwYMg1eKQcXt_OnfrUBXLRxaJwJ70lXqLJta22cM0X2TKKxOQ2SU4ldSriv5wEAZ5RBwIXrNl9zB9X5NoirpAlXKp_pW-Q?width=940&height=627&cropmode=none");
+  background-size: 1900px;
+  background-position: center top;
+  margin-bottom: -5px;
+}
+
+.landingHeader {
+  padding-top: 10%;
+  text-align: center;
+  font-size: 4.0em;
+  font-weight: normal;
+  color: white;
+}
+
+img {
+  border-radius: 100px;
+  margin-top: 20px;
+}
+
+nav {
+  width: 80%;
+  margin: 0 auto;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+.navButton {
+  height: 100%;
+  width: 30%;
+  font-size: 1.3em;
+  margin-left: 1.5%;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+}
+
+.navButton:hover {
+  cursor: pointer;
+  animation-name: shutter;
+  animation-duration: 0.5s;
+  background-color: black;
+  border: none;
+}
+
+a {
+  color: white;
+}
+
+.workHeader {
+	height: auto;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    background-color: #111111;
+    color: #f5f5f5;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+.work {
+  height: 55em;
+  width: 80%;
+}
+
+.sectionHeader {
+  font-weight: bold;
+  padding-top: 0%;
+  padding-left: 1%;
+}
+
+.sectionSub {
+  text-align: center;
+  opacity: .87;
+  overflow-x: hidden;
+}
+
+.about {
+  margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    padding-left: 1%;
+    padding-right: 1%;
+    text-align: center;
+}
+
+.about img {
+  border-radius: 100;
+  height: 10%;
+}
+
+.picture {
+   height: 20em;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border: 1px solid #cccccc;
+    border-radius: 0px;
+}
+
+.imgHolder {
+  position: relative;
+}
+
+.imgHolder span {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+section.gallery {
+    background-color: #f5f5f5;
+	padding-top: 5%;
+	padding-bottom: 2%;
+}
+
+section.gallery img {
+  max-width: 30%;
+  height: auto;
+  display: inline-block;
+    margin-left: 20px;
+    margin-right: auto;
+
+}
+
+#return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+
+#return-to-top:hover i {
+    color: #fff00;
+    top: 5px;
+}
+
+h3 {
+	font-size: 30px;
+	font-weight: 400;
+	text-align: center;
+	margin-top: 50px;
+}
+
+h3 i{
+	color: #444;
+}
+
+#fader {
+   opacity:0;
+   -webkit-transition: opacity 2s;
+   -moz-transition: opacity 2s;
+   -o-transition: opacity 2s;
+   transition: opacity 2s;
+}
+
+/* Style inputs, select elements and textareas */
+input[type=text], select, textarea{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+/* Style the label to display next to the inputs */
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  background-color: #f4710f;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 0px;
+  cursor: pointer;
+  float: center;
+  width: 50%;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+}
+
+input[type=submit]:hover {
+    background-color: #d3631c;
+}
+
+/* Style the container */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+/* Floating column for labels: 25% width */
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+/* Floating column for inputs: 75% width */
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+footer {
+  background-color: black;
+  color: white;
+  height: auto;
+}
+
+.footerInfo {
+  text-align: center;
+    padding-top: 3.5%;
+    padding-bottom: 3.5%;
+    font-size: 1.2em;
+    background-color: #111111;
+}

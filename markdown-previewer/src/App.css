@@ -1,0 +1,25 @@
+body {
+  background-color: #909090;
+  color: white;
+  padding-left: 300px;
+}
+
+code {
+  color: white;
+}
+
+#inputLabel {
+  font-size: 30px;
+  top: 0;
+}
+
+#editor {
+  color: black;
+  height: 300px;
+  width: 700px;
+}
+
+#preview {
+  border: 5px;
+  position: absolute;
+}

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="style.css" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="script.js"></script>
+  <link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <section class="landing">
+
+    <h1 class="landingHeader">Josh Henderson</h1>
+    <img class="picture" src="https://qmonfq.by3302.livefilestore.com/y4mGGR1WA7_37Yt6hXp3x00ak2CUWW2q790m-69CGu1w5G-g-NhWHFp6QjnhBulzXL2yTcrIKGyq_Qu9abhlwFHs6_7jsfakgZqr7uMmRGF1uoTF5ABMZB2ZTVaGTS2o92criJ032XqTgwfj_cyQhzUOwMzSpc9u1Tx9wC2Jc8VZCh0VkzOy6u0WXn4n8yyB5xoed3nzn5R_VZ5bG6A2hmaIw?width=1960&height=2419&cropmode=none"
+      style="margin:auto; display:block" />
+    <nav>
+      <button id="button1" class="navButton">
+       About
+      </button>
+      <button id="button2" class="navButton">
+        Portfolio
+      </button>
+      <button id="button3" class="navButton">
+        Contact
+      </button>
+    </nav>
+  </section>
+
+  <header class="workHeader">
+    <h1 class="sectionHeader" id="aboutsection">About Me</h1>
+
+  </header>
+  <section class="about">
+    <h2>Hi, my name is Josh and I'm a web developer and computer science grad currently living in Queen Creek, Arizona. I'm invested in web based technologies such as Javascript, React, jQuery, HTML5 and CSS. I'm also experienced with back-end technologies
+      such as Node.js, PHP, and Python. I love building stuff, solving problems, and helping people! Currently seeking contracts, part-time or full-time employment. I have no issues working remotely if you're not in the Phoenix area. If you'd like to
+      get in touch with me there's a contact form at the bottom of the page, I'd love to hear from you.</h2>
+  </section>
+
+  <header class="workHeader">
+    <h1 class="sectionHeader" id='portfolio'>Portfolio</h1>
+  </header>
+  <section class="gallery">
+
+    <!–- PUT PROJECT LINKS BELOW -–>
+
+    <!-- Wikipedia Search App -->
+    <a target="blank" href="https://www.joshhendersondev.com/wikiSearch/"><img class="picture" src="https://i50.photobucket.com/albums/f336/josh_henderson2/wikiSearch_zpsvjcncsh8.png"></a>
+    <!-- Weather App -->
+    <a target="blank" href="https://codepen.io/tracer223/full/rrgpww/"><img class="picture" src="https://i50.photobucket.com/albums/f336/josh_henderson2/weatherApp_zpskkqq4qka.png"></a>
+    <!-- Twitch App -->
+    <a target="blank" href="https://codepen.io/tracer223/full/pNJZMp/"><img class="picture" src="https://i50.photobucket.com/albums/f336/josh_henderson2/twitchApp_zpsomahkrbd.png"></a>
+    <!-- Quote App -->
+    <a target="blank" href="https://codepen.io/tracer223/full/bwQxrQ/"><img class="picture" src="https://i50.photobucket.com/albums/f336/josh_henderson2/quoteApp_zps8efixd7f.png"></a>
+    <!-- Pomodoro Clock -->
+    <a target="blank" href="https://www.joshhendersondev.com/pomclock/"><img class="picture" src="https://i50.photobucket.com/albums/f336/josh_henderson2/pomClock_zpsblfdosz3.png"></a>
+    <!-- Javascript Calculator a target="blank" href="https://codepen.io/tracer223/full/JMEWGY/" img class="picture" src="https://i50.photobucket.com/albums/f336/josh_henderson2/javCalc_tn_zpsxfr6x6qc.jpg"-->
+    <!-- Under Construction, add more projects underneath here -->
+
+  </section>
+
+  <header class="workHeader">
+    <h1 class="sectionHeader" id="contact">Contact Me</h1>
+	<!-- <p class="sectionSub"><i>Let's get in touch!</i></p> -->
+  </header>
+  <section class="container">
+    <form name="contactform" method="post" action="send_form_email.php">
+      <tr>
+        <td valign="top">
+          <label for="name">Name *</label>
+        </td>
+        <td valign="top">
+          <input type="text" placeholder="Enter name here." name="name">
+        </td>
+      </tr>
+      <tr>
+        <td valign="top">
+ </td>
+</tr>
+<tr>
+        <td valign="top">
+          <label for="email">Email *</label>
+        </td>
+        <td valign="top">
+          <input type="text" placeholder="Enter email here." name="email">
+        </td>
+      </tr>
+      <tr>
+        <td valign="top">
+ </td>
+</tr>
+ <tr>
+        <td valign="top">
+          <label for="telephone">Telephone *</label>
+        </td>
+        <td valign="top">
+          <input type="text" placeholder="Enter phone number here." name="telephone">
+        </td>
+      </tr>
+      <tr>
+        <td valign="top">
+
+ </td>
+</tr>
+ <td valign="top">
+  <label for="comments">Comments *</label>
+ </td>
+ <td valign="top">
+  <textarea name="comments" placeholder="What's on your mind?" cols="69" rows="5"></textarea>
+ </td>
+</tr>
+<tr>
+  <input type="submit" value="Submit"><a href="email_form.txt"></a>
+</tr>
+</table>
+</form>
+    <p class="sectionSub"></p>  </section>
+
+
+  <footer>
+  <a href="javascript:" id="return-to-top" style="display: block;"><i class="fa fa-chevron-up"></i></a>
+    <p class="footerInfo">&copy <span style="color:white"> 2018 Josh Henderson</span></p>
+  </footer>
+
+</body>
+</html>

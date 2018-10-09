@@ -1,0 +1,22 @@
+body {
+  background-color: #909090;
+  color: white;
+}
+
+code {
+  color: white;
+}
+
+#inputLabel {
+  font-size: 30px;
+}
+
+#editor {
+  padding-top: 20px;
+  color: black;
+  height: 400px;
+}
+
+#preview {
+  border: 3px;
+}
