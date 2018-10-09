@@ -1,7 +1,7 @@
 body {
-  background-color: #909090;
+  background-color: #838383;
   color: white;
-  padding-left: 300px;
+  margin-left: 200px;
 }
 
 code {
@@ -9,17 +9,16 @@ code {
 }
 
 #inputLabel {
-  font-size: 30px;
-  top: 0;
+  font-size: 45px;
 }
 
 #editor {
   color: black;
-  height: 300px;
-  width: 700px;
+  height: 200px;
+  width: 90%;
+  position: relative;
 }
 
-#preview {
-  border: 5px;
-  position: absolute;
+h1 {
+  font-size: 35px;
 }
