@@ -1,4 +1,4 @@
-To run locally:
+To run locally:  
 1.) cd into markdown-previewer directory  
 2.) make sure yarn is installed  
 3.) yarn start  
