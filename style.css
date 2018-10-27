@@ -126,7 +126,7 @@ a {
 }
 
 .picture {
-   height: 20em;
+   height: 18em;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
@@ -220,20 +220,27 @@ h3 i{
    transition: opacity 2s;
 }
 
+#styledForm {
+  margin: auto;
+  width: 50%;
+}
+
 /* Style inputs, select elements and textareas */
 input[type=text], select, textarea{
   width: 100%;
-  padding: 12px;
+  padding: 15px;
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
-  resize: vertical;
+  position: relative;
+  display: block;
 }
 
 /* Style the label to display next to the inputs */
 label {
   padding: 12px 12px 12px 0;
-  display: inline-block;
+  display: block;
+  clear: both;
 }
 
 /* Style the submit button */
@@ -244,10 +251,10 @@ input[type=submit] {
   border: none;
   border-radius: 0px;
   cursor: pointer;
-  float: center;
   width: 50%;
   text-transform: uppercase;
   letter-spacing: 0.15em;
+  justify-content: center;
 }
 
 input[type=submit]:hover {
