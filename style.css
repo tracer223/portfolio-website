@@ -30,10 +30,11 @@ h1 {
 .landing {
   height: 55em;
   width: 100%;
-  background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("https://qmomfq.by3302.livefilestore.com/y4mY_hqyOlcBJaEn4OIlPbqA0mwd58PhroFkS3BbpsWNi8Y22PpuLeqoZNMQfOFAlSnOCW8jLUNDI9ayhtgeFmMPfv_Tt437zYP008JGtAgLqNwVKU4rurnztV-DwYMg1eKQcXt_OnfrUBXLRxaJwJ70lXqLJta22cM0X2TKKxOQ2SU4ldSriv5wEAZ5RBwIXrNl9zB9X5NoirpAlXKp_pW-Q?width=940&height=627&cropmode=none");
-  background-size: 1900px;
+  background-image: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('images/background-laptop.jpg');
+  background-size: cover;
   background-position: center top;
-  margin-bottom: -5px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
 .landingHeader {
