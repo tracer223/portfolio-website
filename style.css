@@ -154,10 +154,8 @@ section.gallery {
 section.gallery img {
   max-width: 30%;
   height: auto;
-  display: inline-block;
-    margin-left: 20px;
-    margin-right: auto;
-
+  display: inline;
+  margin-left: 45px;
 }
 
 #return-to-top {
