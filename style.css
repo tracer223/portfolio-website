@@ -19,17 +19,23 @@
 html, body {
     margin: 0px;
     padding: 0px;
+    overflow-x: hidden;
 }
 
-#beachVideo {
-  width: 100%;
-  height: auto;
+#codeVideo {
   position: absolute;
+  width: auto;
+  height: auto;
   z-index: -100;
 }
 
-h1 {
-    letter-spacing: 0.04em;
+#corpPortrait {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 250px;
+  width: 200px;
+  padding-top: 100px;
 }
 
 #self-portrait {
@@ -37,22 +43,29 @@ h1 {
   margin-right: auto;
   height: 350px;
   width: 350px;
+  filter: brightness(85%);
+}
+
+h1 {
+  letter-spacing: 0.04em;
 }
 
 .landing {
   height: 55em;
-  margin: 0 auto;
-  display: inline-block;
+  width: auto;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  display: block;
+  color: white;
 }
 
-.landingHeader {
-  top: 45%;
-  margin: 0 auto;
-  margin-left: 36%;
-  position: absolute;
+.landing h2 {
   font-size: 4.0em;
   font-weight: normal;
-  color: white;
+  text-align: center;
+  padding-top: 30px;
 }
 
 img {
@@ -66,7 +79,7 @@ img:hover {
 
 nav {
   position: absolute;
-  top: 45%;
+  top: 65%;
   width: 80%;
   margin: 0 auto;
   margin-left: 10%;
@@ -130,13 +143,12 @@ a {
     padding-bottom: 4%;
     padding-left: 1%;
     padding-right: 1%;
-    padding-top: 200px;
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url('images/desert-photo.jpg');
+    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url('images/desert-photo.jpg');
     background-size: cover;
     background-position: center top;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    height: 580px;
+    height: auto;
     text-align: center;
     color: white;
 }
@@ -149,6 +161,8 @@ a {
 .about h2 {
   margin-left: 125px;
   margin-right: 125px;
+  padding-top: 4%;
+  padding-bottom: 4%;
 }
 
 .picture {
@@ -165,17 +179,12 @@ a {
 
 .imgHolder span {
   position: absolute;
-  right: 10px;
   top: 10px;
 }
 
 section.gallery {
   background-color: #f5f5f5;
-	padding-top: 12%;
-  padding-bottom: 12%;
-  padding-left: 35%;
-  padding-right: 25%;
-  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url('images/oly-boats.jpg');
+  background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url('images/oly-boats.jpg');
   background-size: cover;
   background-position: center top;
   background-attachment: fixed;
@@ -183,9 +192,9 @@ section.gallery {
 }
 
 section.gallery img {
-  height: 180px;
-  width: 325px;
-  padding: 2%;
+  height: 235px;
+  width: 400px;
+  padding: 1%;
   display: inline-block;
 }
 
@@ -250,7 +259,7 @@ h3 i{
 }
 
 #contactSection {
-  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url('images/optic-morning.jpg');
+  background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url('images/optic-morning.jpg');
   background-size: cover;
   background-position: center top;
   background-attachment: fixed;
@@ -259,7 +268,7 @@ h3 i{
 
 #styledForm {
   margin: auto;
-  width: 30%;
+  width: 45%;
   opacity: 0.9;
 }
 
