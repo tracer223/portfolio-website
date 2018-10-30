@@ -16,37 +16,46 @@
   }
 }
 
-html, body
-{
+html, body {
     margin: 0px;
     padding: 0px;
-	overflow-x: hidden;
+}
+
+#beachVideo {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  z-index: -100;
 }
 
 h1 {
     letter-spacing: 0.04em;
 }
 
+#self-portrait {
+  margin-left: auto;
+  margin-right: auto;
+  height: 350px;
+  width: 350px;
+}
+
 .landing {
   height: 55em;
-  width: 100%;
-  background-image: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('images/background-laptop.jpg');
-  background-size: cover;
-  background-position: center top;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
+  margin: 0 auto;
+  display: inline-block;
 }
 
 .landingHeader {
-  padding-top: 10%;
-  text-align: center;
+  top: 45%;
+  margin: 0 auto;
+  margin-left: 36%;
+  position: absolute;
   font-size: 4.0em;
   font-weight: normal;
   color: white;
 }
 
 img {
-  border-radius: 100px;
   margin-top: 20px;
   transition: transform .2s; /* Animation */
 }
@@ -56,12 +65,14 @@ img:hover {
 }
 
 nav {
+  position: absolute;
+  top: 45%;
   width: 80%;
   margin: 0 auto;
+  margin-left: 10%;
   height: 50px;
   display: flex;
   justify-content: center;
-  margin-top: 5%;
 }
 
 .navButton {
@@ -115,7 +126,6 @@ a {
 }
 
 .about {
-  
     padding-top: 4%;
     padding-bottom: 4%;
     padding-left: 1%;
@@ -132,8 +142,8 @@ a {
 }
 
 .about img {
-  border-radius: 100;
   height: 10%;
+  padding: 30px;
 }
 
 .about h2 {
@@ -173,8 +183,9 @@ section.gallery {
 }
 
 section.gallery img {
-  height: 150px;
-  width: 285px;
+  height: 180px;
+  width: 325px;
+  padding: 2%;
   display: inline-block;
 }
 
