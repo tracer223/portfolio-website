@@ -38,7 +38,7 @@ html, body {
   padding-top: 100px;
 }
 
-#self-portrait {
+#selfPortrait {
   margin-left: auto;
   margin-right: auto;
   height: 350px;
@@ -192,9 +192,9 @@ section.gallery {
 }
 
 section.gallery img {
-  height: 235px;
-  width: 400px;
-  padding: 1%;
+  height: 20%;
+  width: 50%;
+  padding: 3%;
   display: inline-block;
 }
 
