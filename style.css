@@ -16,17 +16,17 @@
   }
 }
 
-html, body {
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden;
-}
+@media screen and (max-width:768px) {
+  .landing video {
+      width: 100vw;
+      height: 120%;
+      object-fit: fill;
+  }
+  /* some other style */  
+  }
 
-#codeVideo {
-  position: absolute;
-  width: auto;
-  height: auto;
-  z-index: -100;
+html, body {
+  overflow-x: hidden;
 }
 
 #corpPortrait {
@@ -35,7 +35,7 @@ html, body {
   margin-right: auto;
   height: 250px;
   width: 200px;
-  padding-top: 100px;
+  z-index: 10;
 }
 
 #selfPortrait {
@@ -51,14 +51,17 @@ h1 {
 }
 
 .landing {
-  height: 55em;
-  width: auto;
+  width: 100%;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+}
+
+.landing video {
+  z-index: -100;
+  position: absolute;
+  object-fit: cover;
   overflow: hidden;
-  margin-left: auto;
-  margin-right: auto;
-  justify-content: center;
-  display: block;
-  color: white;
 }
 
 .landing h2 {
@@ -66,6 +69,8 @@ h1 {
   font-weight: normal;
   text-align: center;
   padding-top: 2%;
+  padding-bottom: 2%;
+  color: white;
 }
 
 img {
@@ -78,7 +83,6 @@ img:hover {
 }
 
 nav {
-  position: absolute;
   top: 65%;
   width: 80%;
   margin: 0 auto;
@@ -86,6 +90,7 @@ nav {
   height: 50px;
   display: flex;
   justify-content: center;
+  padding-bottom: 40%;
 }
 
 .navButton {
@@ -142,8 +147,6 @@ a {
 .about {
     padding-top: 4%;
     padding-bottom: 4%;
-    padding-left: 1%;
-    padding-right: 1%;
     background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url('images/desert-photo.jpg');
     background-size: cover;
     background-position: center top;
@@ -160,8 +163,8 @@ a {
 }
 
 .about h2 {
-  margin-left: 125px;
-  margin-right: 125px;
+  margin-left: 25px;
+  margin-right: 25px;
   padding-top: 4%;
   padding-bottom: 4%;
 }
@@ -190,15 +193,13 @@ section.gallery {
   background-position: center top;
   background-attachment: fixed;
   background-repeat: no-repeat;
+  padding: 25px;
 }
 
 section.gallery img {
-  height: 150px;
-  width: 285px;
   display: inline-block;
-  padding-left: 50px;
-  padding-bottom: 50px;
-  padding-top: 50px;
+  width: 300px;
+  height: 160px;
 }
 
 #return-to-top {
@@ -271,7 +272,7 @@ h3 i{
 
 #styledForm {
   margin: auto;
-  width: 45%;
+  width: 55%;
   opacity: 0.9;
 }
 
