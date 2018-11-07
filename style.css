@@ -16,17 +16,10 @@
   }
 }
 
-@media screen and (max-width:768px) {
-  .landing video {
-      width: 100vw;
-      height: 120%;
-      object-fit: fill;
-  }
-  /* some other style */  
-  }
 
 html, body {
-  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
 }
 
 #corpPortrait {
@@ -51,25 +44,32 @@ h1 {
 }
 
 .landing {
+  height: 100vh;
   width: 100%;
-  top: 0;
-  left: 0;
-  overflow-x: hidden;
+  z-index: -100;
+  background-size: cover;
+  background-position: center top;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  overflow: hidden;
 }
 
 .landing video {
-  z-index: -100;
+  height: 101vh;
+  width: 100%;
+  z-index: -1;
   position: absolute;
   object-fit: cover;
-  overflow: hidden;
+  filter: brightness(30%);
+  margin: 0;
 }
 
 .landing h2 {
   font-size: 4.0em;
   font-weight: normal;
   text-align: center;
-  padding-top: 2%;
-  padding-bottom: 2%;
+  padding-top: 1%;
+  padding-bottom: 1%;
   color: white;
 }
 
@@ -83,14 +83,13 @@ img:hover {
 }
 
 nav {
-  top: 65%;
   width: 80%;
   margin: 0 auto;
   margin-left: 10%;
   height: 50px;
   display: flex;
   justify-content: center;
-  padding-bottom: 40%;
+  padding-bottom: 25px;
 }
 
 .navButton {
@@ -117,8 +116,8 @@ a {
 }
 
 .workHeader {
-	height: auto;
-    padding-top: 4%;
+	height: 40px;
+  padding-top: 4%;
     padding-bottom: 4%;
     background-color: #111111;
     color: #f5f5f5;
@@ -134,9 +133,9 @@ a {
 
 .sectionHeader {
   font-weight: bold;
-  padding-top: 0%;
   padding-left: 1%;
   font-size: 35px;
+  height: 40px;
 }
 
 .sectionSub {
@@ -147,7 +146,7 @@ a {
 .about {
     padding-top: 4%;
     padding-bottom: 4%;
-    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url('images/desert-photo.jpg');
+    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url('https://beta-static.photobucket.com/images/f336/josh_henderson2/0/e085c311-dad1-4c34-a115-128b888a50b2-original.jpg?width=1920&height=1080&fit=bounds');
     background-size: cover;
     background-position: center top;
     background-attachment: fixed;
@@ -188,16 +187,18 @@ a {
 
 section.gallery {
   background-color: #f5f5f5;
-  background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url('images/oly-boats.jpg');
+  background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url('https://beta-static.photobucket.com/images/f336/josh_henderson2/0/a7c3f5f8-4acd-48ec-8036-6d45a7de06e3-original.jpg?width=1920&height=1080&fit=bounds');
   background-size: cover;
   background-position: center top;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  padding: 25px;
+  justify-content: center;
+  display: inline-block;
+  padding-left: 2.5em;
 }
 
 section.gallery img {
-  display: inline-block;
+  
   width: 300px;
   height: 160px;
 }
@@ -263,7 +264,7 @@ h3 i{
 }
 
 #contactSection {
-  background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url('images/optic-morning.jpg');
+  background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url('https://beta-static.photobucket.com/images/f336/josh_henderson2/0/a14e072b-8e8b-4f9e-8485-484bcd3d6a9b-original.jpg?width=1920&height=1080&fit=bounds');
   background-size: cover;
   background-position: center top;
   background-attachment: fixed;
