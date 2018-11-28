@@ -20,7 +20,7 @@ var quotes = [
   });
 
   $('#tweet-quote').click(function() {
-    window.open('https://twitter.com/intent/tweet' + $('#text').text() + " " + $('#author').text());
+    window.open('https://twitter.com/intent/tweet?text=' + $('#text').text() + " " + $('#author').text());
   });
 
 });
