@@ -1,6 +1,7 @@
 body {
     background-image: url(https://static.pexels.com/photos/25763/pexels-photo.jpg);
-    background-size: cover;
+    background-size: fill;
+    background-repeat: no-repeat;
   }
   
   h1 {
