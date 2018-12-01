@@ -46,17 +46,16 @@ h1 {
 .landing {
   height: 100vh;
   width: 100%;
-  z-index: -100;
   overflow: hidden;
   background-size: cover;
 }
 
 .landing video {
-  height: 101vh;
+  height: 100%;
   width: 100%;
   z-index: -1;
   position: absolute;
-  object-fit: cover;
+  object-fit: fill;
   filter: brightness(30%);
   margin: 0;
 }
@@ -300,16 +299,16 @@ input[type=submit] {
   border: none;
   border-radius: 0px;
   cursor: pointer;
-  width: 50%;
+  width: 100%;
   text-transform: uppercase;
   transition: transform .2s; /* Animation */
   letter-spacing: 0.15em;
-  justify-content: center;
+  font-size: 17px;
 }
 
 input[type=submit]:hover {
     background-color: #d3631c;
-    transform: scale(1.04);
+    transform: scale(1.02);
 }
 
 /* Style the container */
