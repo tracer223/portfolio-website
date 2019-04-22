@@ -47,7 +47,7 @@ h1 {
 .landing {
   height: 100vh;
   width: 100%;
-  overflow: hidden;
+  overflow: hidden; 
   background-size: cover;
 }
 
