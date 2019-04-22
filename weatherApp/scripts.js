@@ -39,12 +39,17 @@ function getWeather(lat, lon) {
       $("#temp").text(currentTempInCelsius + " " + String.fromCharCode(176));
       $("#tempunit").text(tempUnit);
       $("#desc").text(result.weather[0].main);
-      IconGen(result.weather[0].main);
+      $('#icon').text(result.weather[0].icon);
     }
   });
 }
 
-function IconGen(desc) {
+/* 
+* The function below was designed for the openweather.org api before you had to pay to use it.
+* this app no longer uses it in that way.
+*/
+
+/*function IconGen(desc) {
   var desc = desc.toLowerCase()
   switch (desc) {
     case 'drizzle':
@@ -74,3 +79,18 @@ function addIcon(desc) {
   $('div.' + desc).removeClass('hide');
 }
 
+*/
+
+/*
+* This function changes the background of the image depending on the weather.
+*
+*/
+
+function changeBackground(currentTempInCelsius) {
+  var body = document.getElementsByTagName('body')[0];
+  if (currentTempInCelsius > 20) {
+    body.style.backgroundImage = 'url(img/sunny_sky.jpg)';
+  } else {
+    body.style.background = white;
+  }
+}

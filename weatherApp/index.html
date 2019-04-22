@@ -1,34 +1,38 @@
 <!DOCTYPE html>
-  <link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Squada+One" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Anton|Roboto+Slab" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="styles.css">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.0/jquery-ui.min.js"></script>
-  <script type="text/javascript" src="scripts.js" ></script>
-
-
+<html>
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <h1>Here's the weather in your area!</h1>
+      <link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Squada+One" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Anton|Roboto+Slab" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="css/styles.css">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.0/jquery-ui.min.js"></script>
+      <script type="text/javascript" src="scripts.js" ></script>
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" 
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" 
+      crossorigin="anonymous">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
+  <body>
+  <header>
+    Here's the weather in your area!
+  </header>
   <div class='jumbotron'>
-<p id='city'></p>
-<p id='country'></p>
-<p id='lat'></p>
-<p id='lon'></p>
-<p class='icon'></p>
-<p id='weather'></p>
-<p id='wind'></p>
-<p id='desc'></p>
-<p id='temp'></p>
-<button type="button" id='tempunit'></button>
+      <p id='city'></p>
+      <p id='country'></p>
+      <p id='lat'></p>
+      <p id='lon'></p>
+      <p id='icon'></p>
+      <i class="wi wi-night-sleet"></i>      <p id='desc'></p>
+      <p id='temp'></p>
+    <button type="button" id='tempunit'></button>
   </div>
-</div>
 
-<div class='footer'>
-  <footer>
-    <p>&copy Created by Josh Henderson</p>
-  </footer>
-</div>
+    <footer>
+      <p>&copy Created by Josh Henderson</p>
+      <i href="https://github.com/tracer223"class="fab fa-github"></i>
+      <i href="https://www.linkedin.com/in/josh-henderson/" class="fab fa-linkedin-in"></i>
+    </footer>
+  </body>
+  
 </html>
 
