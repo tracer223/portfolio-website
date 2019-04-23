@@ -87,11 +87,13 @@ function addIcon(desc) {
 *
 */
 
-function changeBackground(currentTempInCelsius) {
+function changeBackground(desc) {
   var body = document.getElementsByTagName('body')[0];
-  if (currentTempInCelsius > 20) {
+  if (desc.temp > 20) {
     body.style.backgroundImage = 'url(img/sunny_sky.jpg)';
   } else {
     body.style.background = black;
   }
 }
+
+changeBackground(currentTempInCelsius);
