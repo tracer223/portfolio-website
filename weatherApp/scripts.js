@@ -37,9 +37,10 @@ function getWeather(lat, lon) {
       $("#country").text(result.sys.country);
       currentTempInCelsius = Math.round(result.main.temp * 10) / 10;
       $("#temp").text(currentTempInCelsius + " " + String.fromCharCode(176));
+      $("#lat").text(result.weather[0].latitude);
+      $("#lon").text(result.weather[0].longitude)
       $("#tempunit").text(tempUnit);
       $("#desc").text(result.weather[0].main);
-      $('#icon').text(result.weather[0].icon);
     }
   });
 }
@@ -91,6 +92,6 @@ function changeBackground(currentTempInCelsius) {
   if (currentTempInCelsius > 20) {
     body.style.backgroundImage = 'url(img/sunny_sky.jpg)';
   } else {
-    body.style.background = white;
+    body.style.background = black;
   }
 }
