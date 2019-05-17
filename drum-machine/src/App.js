@@ -142,7 +142,7 @@ render() {
           handleDisplay={this.handleDisplay}
           />
         ))}</div>
-        <footer>© Josh Henderson 2018</footer>
+        <footer>© Josh Henderson 2019</footer>
     </div>
   );
 }
