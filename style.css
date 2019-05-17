@@ -190,12 +190,13 @@ section.gallery {
   background-attachment: fixed;
   background-repeat: no-repeat;
   justify-content: center;
-  display: inline-block;
 }
 
 section.gallery img {
-  width: 250px;
+  width: 260px;
   height: 150px;
+  display: inline-block;
+  margin-left: 2em;
 }
 
 #return-to-top {
