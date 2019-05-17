@@ -76,7 +76,7 @@ img {
 }
 
 img:hover {
-  transform: scale(1.02);
+  transform: scale(1.08);
 }
 
 nav {
@@ -190,14 +190,15 @@ section.gallery {
   background-attachment: fixed;
   background-repeat: no-repeat;
   justify-content: center;
+  padding: 50px;
 }
 
 section.gallery img {
   width: 260px;
   height: 150px;
-  display: inline-block;
-  margin-left: 2em;
+  transition: 0.15s;
 }
+
 
 #return-to-top {
     position: fixed;
