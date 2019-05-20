@@ -355,9 +355,25 @@ footer {
 }
 
 .footerInfo {
+  padding-top: 3.5%;
+  padding-bottom: 3.5%;
+  padding-left: 4.2%;
+  padding-right: 4.2%;
+  font-size: 1.2em;
   text-align: center;
-    padding-top: 3.5%;
-    padding-bottom: 3.5%;
-    font-size: 1.2em;
-    background-color: #111111;
+  background-color: #111111;
+}
+
+.footerLogos {
+  background-color: #111111;
+  text-align: center;
+}
+
+.footerLogos i {
+  font-size: 50px;
+  color: white;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
