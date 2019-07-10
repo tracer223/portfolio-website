@@ -201,8 +201,8 @@ section.gallery {
 }
 
 section.gallery img {
-  width: 40vh;
-  height: auto;
+  width: 300px;
+  height: 160px;
 }
 
 
@@ -363,7 +363,6 @@ input[type=submit]:hover {
 footer {
   background-color: black;
   color: white;
-  height: auto;
 }
 
 .footerInfo {
@@ -388,8 +387,22 @@ footer {
 .footerLogos i {
   font-size: 50px;
   color: white;
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-bottom: 10px;
-  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  transform: scale(1);
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.footerLogos i:hover {
+  transform: scale(1.5);
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
