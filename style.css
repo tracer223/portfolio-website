@@ -196,13 +196,13 @@ section.gallery {
   background-repeat: no-repeat;
   justify-content: center;
   display: inline-block;
-  padding-left: 3em;
-  padding-right: 1.5em;
+  padding-left: 100px;
+  padding-right: 10px;
 }
 
 section.gallery img {
-  width: 45vh;
-  height: 22vh;
+  width: 40vh;
+  height: auto;
 }
 
 #return-to-top {
