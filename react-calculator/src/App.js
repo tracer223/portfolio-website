@@ -141,7 +141,7 @@ class App extends React.Component {
             <Button id="equals" name="=" handleClick={this.handleClick}/>
           </div>
         </div>
-        <footer>© Josh Henderson 2018</footer>
+        <footer>© Josh Henderson 2019</footer>
       </body>
     );
   }

@@ -102,8 +102,8 @@ class DrumPad extends React.Component {
       id = {
         this.props.keyTrigger
       }
-      /> <
-      /div> <
+      /> < /
+      div > <
       /div>
     );
   }
@@ -123,8 +123,8 @@ class Controls extends React.Component {
       max = "1"
       step = "0.01" / >
       <
-      /div> <
-      /div>
+      /div> < /
+      div >
     );
   }
 }
@@ -151,8 +151,7 @@ class App extends React.Component {
   })
 
   render() {
-    return ( <
-      div id = "drum-machine" >
+    return ( < div id = "drum-machine" >
       <
       div id = "display" > {
         this.state.display
