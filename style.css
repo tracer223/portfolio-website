@@ -148,7 +148,7 @@ a {
 .about {
   padding-top: 4%;
   padding-bottom: 4%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url('images/desert-photo.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url('images/desert-photo.webp');
   background-size: cover;
   background-position: center top;
   background-attachment: fixed;
@@ -189,7 +189,7 @@ a {
 
 section.gallery {
   background-color: #f5f5f5;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url('images/oly-boats.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url('images/oly-boats.webp');
   background-size: cover;
   background-position: center top;
   background-attachment: fixed;
@@ -267,7 +267,7 @@ h3 i {
 }
 
 #contactSection {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url('images/optic-morning.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url('images/optic-morning.webp');
   background-size: cover;
   background-position: center top;
   background-attachment: fixed;
