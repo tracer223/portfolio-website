@@ -5,19 +5,22 @@ $(document).ready(function () {
     $("#button1").click(function () {
         $target.stop().animate({
             scrollTop: $("#aboutsection").offset().top
-        }, 100);
+        }, 80);
+        return false;
     });
 
     $("#button2").click(function () {
         $target.stop().animate({
             scrollTop: $("#portfolio").offset().top
-        }, 100);
+        }, 80);
+        return false;
     });
 
     $("#button3").click(function () {
         $target.stop().animate({
             scrollTop: $("#contact").offset().top
-        }, 100);
+        }, 80);
+        return false;
     });
 
 
@@ -27,11 +30,13 @@ $(document).ready(function () {
         } else {
             $('#return-to-top').fadeOut(); // Else fade out the arrow
         }
+        return false;
     });
 
     $('#return-to-top').click(function () { // When arrow is clicked
-        $('body,html').stop().animate({
+        $target.stop().animate({
             scrollTop: 0 // Scroll to top of body
-        }, 100);
+        }, 80);
+        return false;
     });
 });
