@@ -9,12 +9,10 @@
 @keyframes shutter {
   0% {
     background: transparent;
-
   }
 
   100% {
     background-color: black;
-
   }
 }
 
@@ -68,8 +66,8 @@ h1 {
   font-size: 4.0em;
   font-weight: normal;
   text-align: center;
-  padding-top: 1%;
-  padding-bottom: 1%;
+  padding-top: 5%;
+  padding-bottom: 5%;
   color: white;
 }
 
@@ -137,7 +135,7 @@ a {
   font-weight: bold;
   padding-left: 1%;
   font-size: 35px;
-  height: 40px;
+  height: 30px;
 }
 
 .sectionSub {
@@ -146,8 +144,8 @@ a {
 }
 
 .about {
-  padding-top: 4%;
-  padding-bottom: 4%;
+  padding-top: 5%;
+  padding-bottom: 5%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url('images/desert-photo.webp');
   background-size: cover;
   background-position: center top;
@@ -162,7 +160,7 @@ a {
   margin-left: 25px;
   margin-right: 25px;
   margin-bottom: 25px;
-  padding-bottom: 10%;
+  padding-bottom: 5%;
   padding-top: 5%;
   font-size: 25px;
 }
@@ -213,6 +211,53 @@ a {
   top: 10px;
 }
 
+/* Popup container */
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.popup .popuptext {
+  display: none;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  margin-left: -90px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: relative;
+  width: 0;
+  height: 0;
+  border-width: 10px;
+  border-style: solid;
+  top: 40px;
+  left: 50px;
+  border-color: #555 transparent transparent transparent;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 25px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 section.gallery {
   background-color: #f5f5f5;
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url('images/oly-boats.webp');
@@ -220,10 +265,7 @@ section.gallery {
   background-position: center top;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  justify-content: center;
-  display: inline-block;
   padding-left: 100px;
-  padding-right: 10px;
 }
 
 section.gallery img {
@@ -271,7 +313,7 @@ section.gallery img {
 }
 
 #return-to-top:hover i {
-  color: #fff00;
+  color: #e4e4e4;
   top: 5px;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
