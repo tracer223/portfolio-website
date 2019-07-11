@@ -158,16 +158,42 @@ a {
   color: white;
 }
 
-.about img {
-  height: 10%;
-  padding: 30px;
-}
-
-.about h2 {
+.about p {
   margin-left: 25px;
   margin-right: 25px;
-  padding-top: 4%;
-  padding-bottom: 4%;
+  margin-bottom: 25px;
+  padding-bottom: 10%;
+  padding-top: 5%;
+  font-size: 20px;
+}
+
+.about #button4 {
+  padding: 1%;
+  margin-bottom: 100px;
+}
+
+.about i {
+  font-size: 50px;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  transform: scale(1);
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.about i:hover {
+  transform: scale(1.5);
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .picture {
