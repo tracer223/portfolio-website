@@ -74,7 +74,6 @@ h1 {
 img {
   margin-top: 20px;
   transition: transform .2s;
-  /* Animation */
 }
 
 img:hover {
@@ -100,7 +99,6 @@ nav {
   border: 1px solid white;
   color: white;
   transition: transform .2s;
-  /* Animation */
 }
 
 .navButton:hover {
@@ -228,8 +226,9 @@ a {
   padding: 8px 0;
   position: absolute;
   z-index: 1;
-  bottom: 125%;
-  margin-left: -90px;
+  bottom: 100%;
+  margin-left: -30px;
+  margin-bottom: 10px;
 }
 
 /* Popup arrow */
@@ -245,19 +244,6 @@ a {
   border-color: #555 transparent transparent transparent;
 }
 
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 25px;
-}
-
-/* Clear floats after image containers */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
 section.gallery {
   background-color: #f5f5f5;
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url('images/oly-boats.webp');
@@ -265,12 +251,16 @@ section.gallery {
   background-position: center top;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  padding-left: 100px;
+  height: 100%;
+  padding: 20px;
 }
 
-section.gallery img {
-  width: 300px;
-  height: 160px;
+.imgContainer {
+  display: inline-block;
+  width: 410px;
+  height: 200px;
+  margin: auto;
+  padding: 5%;
 }
 
 
